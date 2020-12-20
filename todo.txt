@@ -1,0 +1,5 @@
+- reverse tupolev sprite on bounce
+- lower tupolev bomb inertia
+- weak acid fan effect for sonic wave?
+- lightning gun -> cursed blade / balrog's whip (more dmg, less time)
+- spikeball twoshot with fat delay
