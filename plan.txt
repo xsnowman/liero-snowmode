@@ -1,0 +1,48 @@
+New weapons:
+------------
+Sonic Wave (Jazz Jackrabbit missile pattern, passes through like incendiator)
+Uzi (fast reload flamer-type gun, could maybe replace throw knife)
+some kind of apocalypse rune / pixel bomb type thing?
+
+Weapons unmodified from rere:
+-----------------------------
+Bazooka 
+Doomsday (maybe - seems superfluous)
+Flamer
+Gauss Gun (maybe - could add bounce)
+Incendiator
+Lightning Gun
+Minigun
+Proxy Mine (maybe)
+Rifle
+Scattergun
+Super Shotgun
+
+Weapons modified from rere:
+---------------------------
+Acid Fan: slightly increase dmg output
+Auto Shotgun: more like a scatter minigun (more ammo, more recoil, *maybe* more dmg)
+Chaingun: nerf slightly
+Flak Cannon: see if there's a way to get acid fan to work on it?
+Grenade: buff (more range)
+Grn Launcher: buff slightly (range and recoil?)
+Solar Scorch: use the new one, make it usable for digging
+Spikeballs: do something so you can't spam in no reload mode
+Throw Knife: buff slightly
+
+Weapons deleted from rere:
+--------------------------
+Chiquita Gun (bad)
+Dartgun (incredibly busted)
+Laser (horizontal bs)
+Mini Nuke (spammy, OP)
+Missile (bad)
+Tupolev (bad)
+Winchester (bad)
+
+Not sure what to do with these:
+-------------------------------
+Cluster Pod (highly situational)
+Doomsday (seems superfluous)
+Mortar (situational)
+Zimm (horizontal strats)
