@@ -1018,7 +1018,7 @@
          "wormExplode":false,
          "explGround":true,
          "wormCollide":false,
-         "collideWithObjects":false,
+         "collideWithObjects":true,
          "affectByExplosions":false,
          "bounce":0,
          "bounceFriction":0,
@@ -1474,7 +1474,7 @@
          "partTrailObj":-1,
       },
       {
-         // mininuke wid22
+         // (unused) mininuke wid22
          "detectDistance":0,
          "blowAway":0,
          "gravity":0.0152587890625,
@@ -2059,7 +2059,7 @@
          "partTrailObj":-1,
       },
       {
-         // dartgun wid37
+         // (unused) dartgun wid37
          "detectDistance":1,
          "blowAway":0.3,
          "gravity":0.0,
@@ -2496,7 +2496,7 @@
          "splinterType":17,
       },
       {
-         // tupolev bomb nid9
+         // apparently unused alt tupolev bomb nid9
          "detectDistance":0,
          "gravity":0.0152587890625,
          "speed":2,
@@ -2531,7 +2531,7 @@
          "detectDistance":1,
          "gravity":0.030517578125,
          "speed":1.8,
-         "speedV":0.2,
+         "speedV":0,
          "distribution":0.10517578125,
          "blowAway":0.15,
          "bounce":0,
@@ -2558,7 +2558,7 @@
          "splinterType":17,
       },
       {
-         // mininuke part nid11
+         // (unused) mininuke part nid11
          "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":2,
