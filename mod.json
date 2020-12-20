@@ -44,14 +44,14 @@
    "weapons": [
     {
       "name":"AUTO SHOTGUN",
-      "parts":17,
+      "parts":18,
       "bulletSpeed":4,
       "bulletSpeedInherit":0.2298850574712644,
       "distribution":0.25,
-      "recoil":0.55,
+      "recoil":0.65,
       "ammo":8,
-      "delay":28,
-      "loadingTime":400,
+      "delay":18,
+      "loadingTime":300,
       "leaveShells":1,
       "leaveShellDelay":28,
       "fireCone":9,
@@ -617,8 +617,8 @@
       {
          // auto shotgun wid0
          "detectDistance":1,
-         "blowAway":0.01,
-         "gravity":0.005068115234375,
+         "blowAway":0.015,
+         "gravity":0.005,
          "exploSound":-1,
          "addSpeed":0,
          "distribution":0.18310546875,
