@@ -1008,7 +1008,7 @@
       {
          // sonicwave wid10
          "detectDistance":1,
-         "blowAway":0.02,
+         "blowAway":0.06,
          "gravity":0.002,
          "exploSound":-1,
          "addSpeed":0,
