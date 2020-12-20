@@ -66,7 +66,7 @@
       "parts":1,
       "bulletSpeed":4,
       "bulletSpeedInherit":0.2040816326530612,
-      "distribution":0.0457763671875,
+      "distribution":0.06,
       "recoil":0.06,
       "ammo":50,
       "delay":3,
@@ -656,7 +656,7 @@
       {
          // chaingun wid1
          "detectDistance":1,
-         "blowAway":0.05,
+         "blowAway":0.04,
          "gravity":0.0042724609375,
          "exploSound":-1,
          "addSpeed":0,
