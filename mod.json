@@ -169,7 +169,7 @@
       "leaveShells":1,
       "leaveShellDelay":1,
       "fireCone":8,
-      "laserSight":true,
+      "laserSight":false,
       "laserBeam":false,
       "launchSound":2,
       "playReloadSound":true,
