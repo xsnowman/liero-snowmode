@@ -89,7 +89,7 @@
       "recoil":0.8,
       "ammo":1,
       "delay":5,
-      "loadingTime":250,
+      "loadingTime":220,
       "leaveShells":1,
       "leaveShellDelay":1,
       "fireCone":8,
