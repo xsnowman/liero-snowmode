@@ -461,25 +461,25 @@
       "playReloadSound":true,
       "bulletType":26
     },
-    {
-      "name":"LASER",
-      "parts":1,
-      "bulletSpeed":1,
-      "bulletSpeedInherit":0,
-      "distribution":0.000152587890625,
-      "recoil":0,
-      "ammo":140,
-      "delay":0,
-      "loadingTime":400,
-      "leaveShells":0,
-      "leaveShellDelay":1,
-      "fireCone":0,
-      "laserSight":false,
-      "laserBeam":true,
-      "launchSound":-1,
-      "playReloadSound":true,
-      "bulletType":28
-    },
+   //  {
+   //    "name":"LASER",
+   //    "parts":1,
+   //    "bulletSpeed":1,
+   //    "bulletSpeedInherit":0,
+   //    "distribution":0.000152587890625,
+   //    "recoil":0,
+   //    "ammo":140,
+   //    "delay":0,
+   //    "loadingTime":400,
+   //    "leaveShells":0,
+   //    "leaveShellDelay":1,
+   //    "fireCone":0,
+   //    "laserSight":false,
+   //    "laserBeam":true,
+   //    "launchSound":-1,
+   //    "playReloadSound":true,
+   //    "bulletType":28
+   //  },
     {
       "name":"SPIKEBALLS",
       "parts":7,
@@ -1708,7 +1708,7 @@
          "partTrailObj":3,
       },
       {
-         // laser wid28
+         // (unused) laser wid28
          "detectDistance":0,
          "blowAway":0,
          "gravity":0,
