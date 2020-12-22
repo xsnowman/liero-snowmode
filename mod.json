@@ -44,7 +44,7 @@
    "weapons": [
     {
       "name":"AUTO SHOTGUN",
-      "parts":18,
+      "parts":15,
       "bulletSpeed":4,
       "bulletSpeedInherit":0.2298850574712644,
       "distribution":0.25,
@@ -649,6 +649,25 @@
        "launchSound": 6,
        "playReloadSound": true,
        "bulletType": 42,
+    },
+    {
+       "name": "PIXEL BOMB",
+       "parts": 1,
+       "bulletSpeed": 4,
+       "bulletSpeedInherit": 0.5,
+       "distribution": 0,
+       "recoil": 0,
+       "ammo": 1,
+       "delay": 20,
+       "loadingTime": 300,
+       "leaveShells": 0,
+       "leaveShellDelay": 1,
+       "fireCone": 5,
+       "laserSight": false,
+       "laserBeam": false,
+       "launchSound": 5,
+       "playReloadSound": false,
+       "bulletType": 43
     }
   ],
    "wObjects": [
@@ -2327,6 +2346,44 @@
          "objTrailType": 3,
          "splinterType": 25, // nobj
          "partTrailObj": -1
+       }, {
+         // pixel bomb wid43
+         "detectDistance": 0,
+         "blowAway": 0,
+         "gravity": 0,
+         "exploSound": -1,
+         "addSpeed": 0,
+         "distribution": 0,
+         "multSpeed": 0.5,
+         "dirtEffect": -1,
+         "wormExplode": false,
+         "explGround": false,
+         "wormCollide": false,
+         "collideWithObjects": true, // can blow pixel bomb with fan
+         "affectByExplosions": false,
+         "bounce": 0,
+         "bounceFriction": 0,
+         "timeToExplo": 60,
+         "timeToExploV": 0,
+         "hitDamage": 0,
+         "bloodOnHit": 0,
+         "startFrame": -1,
+         "numFrames": 0,
+         "loopAnim": false,
+         "shotType": 0,
+         "repeat": 1,
+         "colorBullets": 75, // TODO
+         "splinterAmount": 6,
+         "splinterColour": 0,
+         "splinterScatter": 0,
+         "partTrailType": 0,
+         "partTrailDelay": 0,
+         "objTrailDelay": 0,
+         "speed": 0,
+         "createOnExp": -1, // TODO
+         "objTrailType": 0,
+         "splinterType": 29, // TODO
+         "partTrailObj": -1, // TODO
        }
    ],
    "nObjects":[
@@ -3227,6 +3284,37 @@
          "timeToExplo": 4,
          "timeToExploV": 4
        },
+       {
+         // pixel bomb explosion nid29
+         "detectDistance": 0,
+         "gravity": 0,
+         "speed": 2,
+         "speedV": 2.5,
+         "distribution": 0,
+         "blowAway": 0,
+         "bounce": 0,
+         "hitDamage": 0,
+         "wormExplode": 0,
+         "explGround": true,
+         "wormDestroy": 0,
+         "bloodOnHit": 0,
+         "startFrame": 0,
+         "numFrames": 0,
+         "drawOnMap": false,
+         "colorBullets": 0,
+         "createOnExp": 0,
+         "affectByExplosions": false,
+         "dirtEffect": -1,
+         "splinterAmount": 0,
+         "splinterColour": 0,
+         "splinterType": -1, // TODO?
+         "bloodTrail": false,
+         "bloodTrailDelay": 0,
+         "leaveObj": -1,
+         "leaveObjDelay": 0,
+         "timeToExplo": 4,
+         "timeToExploV": 4
+       }
    ],
    "sObjects":[
       {
