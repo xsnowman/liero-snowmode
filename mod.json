@@ -647,7 +647,7 @@
        "fireCone": 9,
        "laserSight": false,
        "laserBeam": false,
-       "launchSound": 3,
+       "launchSound": 6,
        "playReloadSound": true,
        "bulletType": 42,
     }
