@@ -614,8 +614,8 @@
    //    "bulletType":40
    //  },
    {
+      "name": "GRENADE",
       "parts": 1,
-      "bulletType": 41,
       "bulletSpeed": 2,
       "bulletSpeedInherit": 0.5882352941176471,
       "distribution": 0,
@@ -630,8 +630,27 @@
       "laserBeam": false,
       "launchSound": 5,
       "playReloadSound": false,
-      "name": "GRENADE"
+      "bulletType": 41
     },
+    {
+       "name": "MINI MISSILES",
+       "parts": 1,
+       "bulletSpeed": 2.3,
+       "bulletSpeedInherit": 0.4347826086956522,
+       "distribution": 0,
+       "recoil": 0.015,
+       "ammo": 10,
+       "delay": 3,
+       "loadingTime": 480,
+       "leaveShells": 0,
+       "leaveShellDelay": 1,
+       "fireCone": 9,
+       "laserSight": false,
+       "laserBeam": false,
+       "launchSound": 3,
+       "playReloadSound": true,
+       "bulletType": 42,
+    }
   ],
    "wObjects": [
       {
@@ -2233,7 +2252,8 @@
          "splinterType":27,
          "partTrailObj":-1,
       },
-      { // grenade wid41
+      { 
+         // grenade wid41
          "detectDistance": 0,
          "blowAway": 0,
          "gravity": 0.01983642578125,
@@ -2270,7 +2290,45 @@
          "partTrailObj": -1,
          "partTrailDelay": 0,
          "speed": 300
-       },   
+       }, { 
+         // mini missiles wid42
+         "detectDistance": 1,
+         "blowAway": 0,
+         "gravity": 0,
+         "exploSound": -1,
+         "addSpeed": 150,
+         "distribution": 0,
+         "multSpeed": 1,
+         "dirtEffect": -1,
+         "wormExplode": true,
+         "explGround": true,
+         "wormCollide": true,
+         "collideWithObjects": false,
+         "affectByExplosions": false,
+         "bounce": 0,
+         "bounceFriction": 0.8,
+         "timeToExplo": 0,
+         "timeToExploV": 0,
+         "hitDamage": 3,
+         "bloodOnHit": 3,
+         "startFrame": 127,
+         "numFrames": 0,
+         "loopAnim": false,
+         "shotType": 2,
+         "repeat": 1,
+         "colorBullets": 0,
+         "splinterAmount": 10,
+         "splinterColour": 66,
+         "splinterScatter": 0,
+         "objTrailDelay": 4,
+         "partTrailType": 0,
+         "partTrailDelay": 0,
+         "speed": 230,
+         "createOnExp": 10, // sobj
+         "objTrailType": 3,
+         "splinterType": 25, // nobj
+         "partTrailObj": -1
+       }
    ],
    "nObjects":[
       {
@@ -3323,19 +3381,19 @@
          "dirtEffect":5
       },
       {
-         // sid10
+         // mini missile explosion sid10
          "startSound":9,
          "numSounds":4,
          "animDelay":2,
          "startFrame":47,
          "numFrames":8,
          "detectRange":10,
-         "damage":8,
+         "damage":4,
          "blowAway":0.0457763671875,
          "shadow":true,
          "shake":2,
          "flash":3,
-         "dirtEffect":8
+         "dirtEffect":1
       },
       {
          // sid11
