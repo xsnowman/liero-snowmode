@@ -1345,7 +1345,7 @@
          "multSpeed":1,
          "dirtEffect":-1,
          "wormExplode":false,
-         "explGround":false,
+         "explGround":true,
          "wormCollide":true,
          "collideWithObjects":false,
          "affectByExplosions":true,
