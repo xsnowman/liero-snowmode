@@ -486,7 +486,7 @@
       "bulletSpeedInherit":0.9090909090909091,
       "distribution":0.3662109375,
       "recoil":0,
-      "ammo":2,
+      "ammo":3,
       "delay":50,
       "loadingTime":400,
       "leaveShells":0,
@@ -1080,7 +1080,7 @@
          "bounceFriction":0,
          "timeToExplo":0,
          "timeToExploV":0,
-         "hitDamage":1.7,
+         "hitDamage":1,
          "bloodOnHit":4,
          "startFrame":239,
          "numFrames":0,
@@ -2373,7 +2373,7 @@
          "shotType": 0,
          "repeat": 1,
          "colorBullets": 75, // TODO
-         "splinterAmount": 8, // peripheral explosions
+         "splinterAmount": 10, // peripheral explosions
          "splinterColour": 0,
          "splinterScatter": 0,
          "partTrailType": 0,
