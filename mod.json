@@ -44,7 +44,7 @@
    "weapons": [
     {
       "name":"AUTO SHOTGUN",
-      "parts":15,
+      "parts":18,
       "bulletSpeed":4,
       "bulletSpeedInherit":0.2298850574712644,
       "distribution":0.25,
@@ -220,8 +220,8 @@
       "bulletSpeedInherit":0.3,
       "distribution":0, // nop
       "recoil":0.4,
-      "ammo":12,
-      "delay":10,
+      "ammo":20,
+      "delay":6,
       "loadingTime":400,
       "leaveShells":0,
       "leaveShellDelay":1,
@@ -310,14 +310,14 @@
     },
     {
       "name":"SUPER SHOTGUN",
-      "parts":48,
+      "parts":72,
       "bulletSpeed":3,
       "bulletSpeedInherit":0.2225,
       "distribution":1,
       "recoil":2.4,
       "ammo":2,
       "delay":20,
-      "loadingTime":400,
+      "loadingTime":420,
       "leaveShells":1,
       "leaveShellDelay":28,
       "fireCone":10,
