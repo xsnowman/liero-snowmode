@@ -213,7 +213,6 @@
       "playReloadSound":true,
       "bulletType":9
     },
-    // TODO eventually this should have Jazz Jackrabbit missile pattern
     {
       "name":"SONIC WAVE",
       "parts":2,
@@ -348,16 +347,16 @@
       "bulletType":17
     },
     {
-      "name":"CHIQUITA GUN",
-      "parts":4,
-      "bulletSpeed":3,
-      "bulletSpeedInherit":0.3333333333333333,
+      "name":"CHIQUITA GUN", // survivio peacemaker style
+      "parts":1,
+      "bulletSpeed":4,
+      "bulletSpeedInherit":0.5,
       "distribution":0.30517578125,
-      "recoil":2.3,
-      "ammo":1,
-      "delay":0,
+      "recoil":0.8,
+      "ammo":6,
+      "delay":10,
       "loadingTime":400,
-      "leaveShells":4,
+      "leaveShells":1,
       "leaveShellDelay":1,
       "fireCone":6,
       "laserSight":false,
@@ -1356,7 +1355,7 @@
          "partTrailObj":-1,
       },
       {
-         // chiquitagun wid18
+         // chiquita gun wid18
          "detectDistance":0,
          "blowAway":0.15,
          "gravity":0.000152587890625,
@@ -2898,7 +2897,7 @@
          "distribution":0.152587890625,
          "blowAway":0,
          "bounce":0,
-         "hitDamage":4,
+         "hitDamage":5,
          "wormExplode":true,
          "explGround":true,
          "wormDestroy":true,
