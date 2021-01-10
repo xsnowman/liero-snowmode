@@ -290,14 +290,14 @@
       "bulletType":14
     },
     {
-      "name":"CLUSTER POD",
-      "parts":20,
+      "name":"CLUSTER SPRAY",
+      "parts":1,
       "bulletSpeed":1.4,
       "bulletSpeedInherit":0.7142857142857143,
       "distribution":0.4999847412109375,
-      "recoil":0,
-      "ammo":1,
-      "delay":0,
+      "recoil":0.07,
+      "ammo":20,
+      "delay":3,
       "loadingTime":400,
       "leaveShells":0,
       "leaveShellDelay":1,
@@ -668,7 +668,7 @@
        "launchSound": 5,
        "playReloadSound": false,
        "bulletType": 43
-    }
+    },
   ],
    "wObjects": [
       {
