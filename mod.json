@@ -1938,7 +1938,7 @@
          "bounceFriction":0.8,
          "timeToExplo":0,
          "timeToExploV":0,
-         "hitDamage":35,
+         "hitDamage":25,
          "bloodOnHit":30,
          "startFrame":110,
          "numFrames":0,
@@ -3166,7 +3166,7 @@
          // new missile explosion nid25
          "detectDistance":0,
          "gravity":0,
-         "speed":3,
+         "speed":5,
          "speedV":3,
          "distribution":0,
          "blowAway":0,
@@ -3189,7 +3189,7 @@
          "leaveObjDelay":0,
          "timeToExplo":2,
          "timeToExploV":2,
-         "createOnExp":14,
+         "createOnExp":28,
          "leaveObj":-1,
          "splinterType":17,
       },
@@ -3735,7 +3735,22 @@
          "shake": 2,
          "flash": 4,
          "dirtEffect": 1
-       }
+       },
+       {
+         // missile explosion final sid28
+         "startSound":-1,
+         "numSounds":0,
+         "animDelay":2,
+         "startFrame":40,
+         "numFrames":15,
+         "detectRange":20,
+         "damage":3,
+         "blowAway":0,
+         "shadow":true,
+         "shake":0,
+         "flash":0,
+         "dirtEffect":-1
+       },
    ],
    "textures":[
       {
