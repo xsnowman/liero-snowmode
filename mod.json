@@ -2974,7 +2974,7 @@
          "timeToExploV":0,
          "createOnExp":0,
          "leaveObj":-1,
-         "splinterType":17,
+         "splinterType":30,
       },
       {
          // mortar splinter #1 nid19
@@ -3070,7 +3070,7 @@
          "splinterType":4,
       },
       {
-         // nid22
+         // nid22 (unused?)
          "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":1.2,
@@ -3101,7 +3101,7 @@
          "splinterType":23,
       },
       {
-         // nid23
+         // nid23 (unused?)
          "detectDistance":1,
          "gravity":0.0152587890625,
          "speed":1.2,
@@ -3286,34 +3286,64 @@
        },
        {
          // pixel bomb explosion spawner nid29
-         "detectDistance": 0,
-         "gravity": 0,
-         "speed": 4,
-         "speedV": 2.5,
-         "distribution": 0,
-         "blowAway": 0,
-         "bounce": 0,
-         "hitDamage": 0,
-         "wormExplode": 0,
-         "explGround": true,
-         "wormDestroy": 0,
-         "bloodOnHit": 0,
-         "startFrame": 0,
-         "numFrames": 0,
-         "drawOnMap": false,
-         "colorBullets": 0,
-         "createOnExp": 27, // sobj
-         "affectByExplosions": false,
-         "dirtEffect": -1,
-         "splinterAmount": 0,
-         "splinterColour": 0,
-         "splinterType": -1, // TODO?
-         "bloodTrail": false,
-         "bloodTrailDelay": 0,
-         "leaveObj": -1,
-         "leaveObjDelay": 0,
-         "timeToExplo": 4,
-         "timeToExploV": 4
+         "detectDistance":0,
+         "gravity":0,
+         "speed":4,
+         "speedV":2.5,
+         "distribution":0,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":0,
+         "wormExplode":0,
+         "explGround":true,
+         "wormDestroy":0,
+         "bloodOnHit":0,
+         "startFrame":0,
+         "numFrames":0,
+         "drawOnMap":false,
+         "colorBullets":0,
+         "createOnExp":27, // sobj
+         "affectByExplosions":false,
+         "dirtEffect":-1,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "splinterType":-1, // TODO?
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObj":-1,
+         "leaveObjDelay":0,
+         "timeToExplo":4,
+         "timeToExploV":4
+       }, {
+          // chiquita splatter nid30
+          "detectDistance":0,
+          "gravity":1,
+          "speed":1,
+          "speedV":0.5,
+          "distribution":0.3,
+          "blowAway":0,
+          "bounce":0,
+          "hitDamage":1,
+          "wormExplode":0,
+          "explGround":true,
+          "wormDestroy":true,
+          "bloodOnHit":1,
+          "startFrame":0,
+          "numFrames":0,
+          "drawOnMap":false,
+          "colorBullets":75,
+          "createOnExp":-1,
+          "affectByExplosions":false,
+          "dirtEffect":-1,
+          "splinterAmount":0,
+          "splinterColour":0,
+          "splinterType":-1,
+          "bloodTrail":false,
+          "bloodTrailDelay":0,
+          "leaveObj":0,
+          "leaveObjDelay":0,
+          "timeToExplo":40,
+          "timeToExploV":4
        }
    ],
    "sObjects":[
