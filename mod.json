@@ -1938,7 +1938,7 @@
          "bounceFriction":0.8,
          "timeToExplo":0,
          "timeToExploV":0,
-         "hitDamage":25,
+         "hitDamage":35,
          "bloodOnHit":30,
          "startFrame":110,
          "numFrames":0,
