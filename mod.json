@@ -169,7 +169,7 @@
       "leaveShells":1,
       "leaveShellDelay":1,
       "fireCone":8,
-      "laserSight":false,
+      "laserSight":true,
       "laserBeam":false,
       "launchSound":2,
       "playReloadSound":true,
@@ -860,9 +860,9 @@
          "partTrailType":0,
          "partTrailDelay":0,
          "speed":0,
-         "createOnExp":16,
+         "createOnExp":-1,
          "objTrailType":3,
-         "splinterType":15,
+         "splinterType":12,
          "partTrailObj":-1,
       },
       {
@@ -986,7 +986,7 @@
          // uzi wid7
          "detectDistance":1,
          "blowAway":0.1,
-         "gravity":0.0015,
+         "gravity":0.0006,
          "exploSound":-1,
          "addSpeed":0,
          "distribution":0.00152587890625,
@@ -1001,7 +1001,7 @@
          "bounceFriction":0.8,
          "timeToExplo":0,
          "timeToExploV":0,
-         "hitDamage":4,
+         "hitDamage":8,
          "bloodOnHit":4,
          "startFrame":-1,
          "numFrames":0,
@@ -1880,7 +1880,7 @@
          "partTrailObj":-1,
       },
       {
-         // unused (napalm?) wid30
+         // napalm wid30
          "detectDistance":2,
          "blowAway":0,
          "gravity":0.0152587890625,
@@ -2487,16 +2487,16 @@
          "shotType": 0,
          "repeat": 1,
          "colorBullets": 66,
-         "splinterAmount": 10,
+         "splinterAmount": 15,
          "splinterColour": 3,
          "splinterScatter": 0,
          "objTrailDelay": 0,
          "partTrailType": 0,
          "partTrailDelay": 0,
          "speed": 510,
-         "createOnExp": 1,
+         "createOnExp": 16,
          "objTrailType": -1,
-         "splinterType": 12,
+         "splinterType": 15,
          "partTrailObj": -1
        }
    ],
