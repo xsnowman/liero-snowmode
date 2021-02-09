@@ -671,12 +671,12 @@
     },
     {
       "name": "THOMPSON",
-      "parts": 2,
+      "parts": 1,
       "bulletSpeed": 2.5,
       "bulletSpeedInherit": 0.2,
       "distribution": 0.2,
       "recoil": 0.05,
-      "ammo": 30,
+      "ammo": 40,
       "delay": 0,
       "loadingTime": 240,
       "leaveShells": 4,
@@ -687,6 +687,25 @@
       "launchSound": 1,
       "playReloadSound": true,
       "bulletType": 44
+    },
+    {
+      "name": "SHOCKWAVE GUN",
+      "parts": 1,
+      "bulletSpeed": 5,
+      "bulletSpeedInherit": 0,
+      "distribution": 0.004,
+      "recoil": 0.6,
+      "ammo": 8,
+      "delay": 10,
+      "loadingTime": 510,
+      "leaveShells": 0,
+      "leaveShellDelay": 1,
+      "fireCone": 4,
+      "laserSight": false,
+      "laserBeam": false,
+      "launchSound": 9,
+      "playReloadSound": true,
+      "bulletType": 45
     }
   ],
    "wObjects": [
@@ -811,7 +830,7 @@
          // bazooka wid3
          "detectDistance":2,
          "blowAway":0,
-         "gravity":0.1,
+         "gravity":0.03,
          "exploSound":-1,
          "addSpeed":3,
          "distribution":0.01,
@@ -1861,7 +1880,7 @@
          "partTrailObj":-1,
       },
       {
-         // unused wid30
+         // unused (napalm?) wid30
          "detectDistance":2,
          "blowAway":0,
          "gravity":0.0152587890625,
@@ -2441,6 +2460,44 @@
          "objTrailType": -1,
          "splinterType": 2,
          "partTrailObj": -1,
+       }, {
+         // shockwave gun wid45
+         "detectDistance": 2,
+         "blowAway": 0.2,
+         "gravity": 0.003,
+         "exploSound": 7,
+         "addSpeed": 0,
+         "distribution": 0.004,
+         "multSpeed": 1,
+         "dirtEffect": 1,
+         "wormExplode": true,
+         "explGround": true,
+         "wormCollide": true,
+         "collideWithObjects": false,
+         "affectByExplosions": true,
+         "bounce": 0,
+         "bounceFriction": 0.8,
+         "timeToExplo": 40,
+         "timeToExploV": 0,
+         "hitDamage": 10,
+         "bloodOnHit": 10,
+         "startFrame": 193,
+         "numFrames": 0,
+         "loopAnim": false,
+         "shotType": 0,
+         "repeat": 1,
+         "colorBullets": 66,
+         "splinterAmount": 10,
+         "splinterColour": 3,
+         "splinterScatter": 0,
+         "objTrailDelay": 0,
+         "partTrailType": 0,
+         "partTrailDelay": 0,
+         "speed": 510,
+         "createOnExp": 1,
+         "objTrailType": -1,
+         "splinterType": 12,
+         "partTrailObj": -1
        }
    ],
    "nObjects":[
