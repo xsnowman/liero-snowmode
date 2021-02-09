@@ -5,15 +5,23 @@
 - spikeball twoshot with fat delay
 
 - unbreak bazooka, but figure out a way to make it not so spammable
-- fix sonic wave; experiment with giving it weapon deflection without yeet cannon effect
+- fix sonic wave; experiment with giving it weapon deflection without 
+    yeet cannon effect
 - rebalance ssg
 - slightly nerf mortar
-- buff pixel bomb a lot; probably change the entire explosion model (instakill with very good aim, but some aoe splash damage)
+- buff pixel bomb a lot; probably change the entire explosion model
+    (instakill with very good aim, but some aoe splash damage)
 - maybe give spikeballs one more ammo
 - chiquita gun should do a little more damage
 - some kind of rb rampage type thing
 
 - omnidirectional repulsor (cf. airmash goliath shield - dunno if there's a good way to do this tho)
-- bring back rb rampage in some form, maybe buffed grenade launcher (this could make up for the zimm nerf)
-- sword (close-range weapon that does like 40 dmg, to make up for the zimm + spikeballs nerf)
+- bring back rb rampage in some form, maybe buffed grenade launcher 
+    (this could make up for the zimm nerf)
+- sword (close-range weapon that does like 40 dmg, 
+    to make up for the zimm + spikeballs nerf)
 - give missiles bigger and/or more damaging explosions
+
+- thompson vs. minigun: minigun should have better aim, 
+    thompson should have higher DPS 
+    (SCAR-H vs MAC-10)
