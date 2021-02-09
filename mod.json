@@ -3724,7 +3724,7 @@
          "startFrame":45,
          "numFrames":10,
          "detectRange":15,
-         "damage":11,
+         "damage":18,
          "blowAway":0.0457763671875,
          "shadow":true,
          "shake":2,
