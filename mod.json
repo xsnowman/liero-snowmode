@@ -639,7 +639,7 @@
        "distribution": 0,
        "recoil": 0.015,
        "ammo": 10,
-       "delay": 3,
+       "delay": 5,
        "loadingTime": 480,
        "leaveShells": 0,
        "leaveShellDelay": 1,
@@ -671,7 +671,7 @@
     },
     {
       "name": "THOMPSON",
-      "parts": 1,
+      "parts": 2,
       "bulletSpeed": 2.5,
       "bulletSpeedInherit": 0.2,
       "distribution": 0.2,
@@ -2354,7 +2354,7 @@
          "shotType": 2,
          "repeat": 1,
          "colorBullets": 0,
-         "splinterAmount": 10,
+         "splinterAmount": 5,
          "splinterColour": 66,
          "splinterScatter": 0,
          "objTrailDelay": 4,
@@ -2410,7 +2410,7 @@
          "gravity": 0.01,
          "exploSound": -1,
          "addSpeed": 0,
-         "distribution": 0.5,
+         "distribution": 0.3,
          "multSpeed": 1,
          "dirtEffect": -1,
          "wormExplode": false,
@@ -2422,7 +2422,7 @@
          "bounceFriction": 0.8,
          "timeToExplo": 0,
          "timeToExploV": 0,
-         "hitDamage": 4,
+         "hitDamage": 2.5,
          "bloodOnHit": 3,
          "startFrame": -1,
          "numFrames": 0,
@@ -3246,9 +3246,9 @@
          "leaveObjDelay":0,
          "timeToExplo":2,
          "timeToExploV":2,
-         "createOnExp":28,
+         "createOnExp":28, // sobj
          "leaveObj":-1,
-         "splinterType":17,
+         "splinterType":17, // nobj
       },
       {
          // flamer hot smoke nid26
