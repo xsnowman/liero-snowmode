@@ -1001,7 +1001,7 @@
          "bounceFriction":0.8,
          "timeToExplo":0,
          "timeToExploV":0,
-         "hitDamage":8,
+         "hitDamage":4,
          "bloodOnHit":4,
          "startFrame":-1,
          "numFrames":0,
@@ -2967,7 +2967,7 @@
          "splinterType":15,
       },
       {
-         // new bazooka explosion nid15
+         // shockwave gun explosion nid15
          "detectDistance":0,
          "gravity":0,
          "speed":3,
