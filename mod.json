@@ -860,9 +860,9 @@
          "partTrailType":0,
          "partTrailDelay":0,
          "speed":0,
-         "createOnExp":-1,
+         "createOnExp":16,
          "objTrailType":3,
-         "splinterType":12,
+         "splinterType":15,
          "partTrailObj":-1,
       },
       {
