@@ -1984,14 +1984,14 @@
          "shotType":2,
          "repeat":1,
          "colorBullets":0,
-         "splinterAmount":10,
+         "splinterAmount":12, // std napalm has 17 but they don't bounce
          "splinterColour":114,
          "splinterScatter":0,
          "objTrailDelay":4,
          "partTrailType":0,
          "partTrailDelay":0,
          "speed":230,
-         "createOnExp":24,
+         "createOnExp":14,
          "objTrailType":3,
          "splinterType":12,
          "partTrailObj":-1,
@@ -2881,10 +2881,10 @@
          "speedV":0.9,
          "distribution":0.152587890625,
          "blowAway":0,
-         "bounce":0,
+         "bounce":1,
          "hitDamage":0,
          "wormExplode":false,
-         "explGround":true,
+         "explGround":false,
          "wormDestroy":false,
          "bloodOnHit":0,
          "startFrame":0,
@@ -3582,14 +3582,14 @@
          "dirtEffect":-1
       },
       {
-         // sid8
+         // sid8 napalm
          "startSound":-1,
          "numSounds":0,
          "animDelay":2,
          "startFrame":49,
          "numFrames":6,
          "detectRange":8,
-         "damage":7,
+         "damage":5, // was 7
          "blowAway":0,
          "shadow":true,
          "shake":0,
