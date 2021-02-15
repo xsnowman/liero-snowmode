@@ -355,7 +355,7 @@
       "recoil":0.8,
       "ammo":6,
       "delay":10,
-      "loadingTime":250,
+      "loadingTime":225,
       "leaveShells":1,
       "leaveShellDelay":1,
       "fireCone":6,
@@ -689,7 +689,7 @@
       "bulletType": 44
     },
     {
-      "name": "SHOCKWAVE GUN",
+      "name": "CANNON",
       "parts": 1,
       "bulletSpeed": 5,
       "bulletSpeedInherit": 0,
@@ -1418,7 +1418,7 @@
          "gravity":0.000152587890625,
          "exploSound":-1,
          "addSpeed":0,
-         "distribution":0.30517578125,
+         "distribution":0.25,
          "multSpeed":1,
          "dirtEffect":-1,
          "wormExplode":true,
@@ -2461,7 +2461,7 @@
          "splinterType": 2,
          "partTrailObj": -1,
        }, {
-         // shockwave gun wid45
+         // cannon wid45
          "detectDistance": 2,
          "blowAway": 0.2,
          "gravity": 0.003,
@@ -2494,7 +2494,7 @@
          "partTrailType": 0,
          "partTrailDelay": 0,
          "speed": 510,
-         "createOnExp": 16,
+         "createOnExp": 1,
          "objTrailType": -1,
          "splinterType": 15,
          "partTrailObj": -1
@@ -2967,7 +2967,7 @@
          "splinterType":15,
       },
       {
-         // shockwave gun explosion nid15
+         // proxy mine etc. explosion nid15
          "detectDistance":0,
          "gravity":0,
          "speed":3,
