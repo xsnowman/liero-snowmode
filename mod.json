@@ -518,7 +518,7 @@
       "bulletType":31
     },
     {
-      "name":"MISSILE",
+      "name":"NAPALM MISSILE",
       "parts":1,
       "bulletSpeed":2.3,
       "bulletSpeedInherit":0.4347826086956522,
@@ -1958,7 +1958,7 @@
          "partTrailObj":10,
       },
       {
-         // missile wid32
+         // napalm missile wid32
          "detectDistance":1,
          "blowAway":0,
          "gravity":0,
@@ -1976,7 +1976,7 @@
          "bounceFriction":0.8,
          "timeToExplo":0,
          "timeToExploV":0,
-         "hitDamage":25,
+         "hitDamage":0,
          "bloodOnHit":30,
          "startFrame":110,
          "numFrames":0,
@@ -1985,7 +1985,7 @@
          "repeat":1,
          "colorBullets":0,
          "splinterAmount":10,
-         "splinterColour":66,
+         "splinterColour":114,
          "splinterScatter":0,
          "objTrailDelay":4,
          "partTrailType":0,
@@ -1993,7 +1993,7 @@
          "speed":230,
          "createOnExp":24,
          "objTrailType":3,
-         "splinterType":25,
+         "splinterType":12,
          "partTrailObj":-1,
       },
       {
@@ -2441,7 +2441,7 @@
          "bounceFriction": 0.8,
          "timeToExplo": 70,
          "timeToExploV": 0,
-         "hitDamage": 2.5,
+         "hitDamage": 2.75,
          "bloodOnHit": 3,
          "startFrame": -1,
          "numFrames": 0,
