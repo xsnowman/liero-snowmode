@@ -442,7 +442,7 @@
    //    "bulletType":22
    //  },
     {
-      "name":"FLAK CANNON",
+      "name":"FLAK RIFLE",
       "parts":1,
       "bulletSpeed":5.1,
       "bulletSpeedInherit":0,
@@ -675,7 +675,7 @@
       "bulletSpeed": 2.5,
       "bulletSpeedInherit": 0.2,
       "distribution": 0.2,
-      "recoil": 0.05,
+      "recoil": 0.06,
       "ammo": 40,
       "delay": 0,
       "loadingTime": 240,
@@ -694,9 +694,9 @@
       "bulletSpeed": 5,
       "bulletSpeedInherit": 0,
       "distribution": 0.004,
-      "recoil": 0.6,
-      "ammo": 8,
-      "delay": 10,
+      "recoil": 0.7,
+      "ammo": 12,
+      "delay": 24,
       "loadingTime": 510,
       "leaveShells": 0,
       "leaveShellDelay": 1,
@@ -1724,7 +1724,7 @@
          "partTrailObj":24,
       },
       {
-         // flak wid26
+         // flak rifle wid26
          "detectDistance":2,
          "blowAway":0.2,
          "gravity":0.0030517578125,
@@ -2439,7 +2439,7 @@
          "affectByExplosions": false,
          "bounce": 0,
          "bounceFriction": 0.8,
-         "timeToExplo": 0,
+         "timeToExplo": 70,
          "timeToExploV": 0,
          "hitDamage": 2.5,
          "bloodOnHit": 3,
