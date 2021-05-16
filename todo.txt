@@ -1,3 +1,9 @@
+graphics:
+- sonic wave
+- ensure that the mini missile fix is in
+- aura should have white smoke, not pixels
+
+
 - reverse tupolev sprite on bounce
 - lower tupolev bomb inertia
 - weak acid fan effect for sonic wave?
