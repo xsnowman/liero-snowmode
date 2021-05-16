@@ -422,25 +422,6 @@
       "playReloadSound":true,
       "bulletType":21
     },
-   //  {
-   //    "name":"MINI NUKE",
-   //    "parts":1,
-   //    "bulletSpeed":1.8,
-   //    "bulletSpeedInherit":0.5555555555555556,
-   //    "distribution":0.1983642578125,
-   //    "recoil":0.2,
-   //    "ammo":2,
-   //    "delay":30,
-   //    "loadingTime":450,
-   //    "leaveShells":0,
-   //    "leaveShellDelay":1,
-   //    "fireCone":0,
-   //    "laserSight":false,
-   //    "laserBeam":false,
-   //    "launchSound":5,
-   //    "playReloadSound":false,
-   //    "bulletType":22
-   //  },
     {
       "name":"FLAK RIFLE",
       "parts":1,
@@ -460,25 +441,6 @@
       "playReloadSound":true,
       "bulletType":26
     },
-   //  {
-   //    "name":"LASER",
-   //    "parts":1,
-   //    "bulletSpeed":1,
-   //    "bulletSpeedInherit":0,
-   //    "distribution":0.000152587890625,
-   //    "recoil":0,
-   //    "ammo":140,
-   //    "delay":0,
-   //    "loadingTime":400,
-   //    "leaveShells":0,
-   //    "leaveShellDelay":1,
-   //    "fireCone":0,
-   //    "laserSight":false,
-   //    "laserBeam":true,
-   //    "launchSound":-1,
-   //    "playReloadSound":true,
-   //    "bulletType":28
-   //  },
     {
       "name":"SPIKEBALLS",
       "parts":5,
@@ -536,25 +498,6 @@
       "playReloadSound":true,
       "bulletType":32
     },
-   //  {
-   //    "name":"DARTGUN",
-   //    "parts":2,
-   //    "bulletSpeed":2.75,
-   //    "bulletSpeedInherit":0.15,
-   //    "distribution":0.04,
-   //    "recoil":0,
-   //    "ammo":6,
-   //    "delay":18,
-   //    "loadingTime":217,
-   //    "leaveShells":0,
-   //    "leaveShellDelay":1,
-   //    "fireCone":0,
-   //    "laserSight":false,
-   //    "laserBeam":false,
-   //    "launchSound":2,
-   //    "playReloadSound":true,
-   //    "bulletType":37
-   //  },
     {
       "name":"SCATTERGUN",
       "parts":3,
@@ -592,26 +535,7 @@
       "launchSound":10,
       "playReloadSound":true,
       "bulletType":39
-    },
-   //  {
-   //    "name":"DYNAMITE",
-   //    "parts":3,
-   //    "bulletSpeed":2,
-   //    "bulletSpeedInherit":0.5882352941176471,
-   //    "distribution":0,
-   //    "recoil":0,
-   //    "ammo":1,
-   //    "delay":0,
-   //    "loadingTime":200,
-   //    "leaveShells":0,
-   //    "leaveShellDelay":1,
-   //    "fireCone":0,
-   //    "laserSight":false,
-   //    "laserBeam":false,
-   //    "launchSound":5,
-   //    "playReloadSound":false,
-   //    "bulletType":40
-   //  },
+   },
    {
       "name":"GRENADE",
       "parts":1,
@@ -670,25 +594,6 @@
        "bulletType":43
     },
     {
-      "name":"THOMPSON",
-      "parts":1,
-      "bulletSpeed":2.5,
-      "bulletSpeedInherit":0.2,
-      "distribution":0.2,
-      "recoil":0.06,
-      "ammo":40,
-      "delay":0,
-      "loadingTime":240,
-      "leaveShells":4,
-      "leaveShellDelay":1,
-      "fireCone":6,
-      "laserSight":false,
-      "laserBeam":false,
-      "launchSound":1,
-      "playReloadSound":true,
-      "bulletType":44
-    },
-    {
       "name":"CANNON",
       "parts":1,
       "bulletSpeed":5,
@@ -706,6 +611,25 @@
       "launchSound":9,
       "playReloadSound":true,
       "bulletType":45
+    },
+    {
+      "name":"AURA",
+      "parts":1,
+      "bulletSpeed":1,
+      "bulletSpeedInherit":1,
+      "distribution":0.0001,
+      "recoil":0,
+      "ammo":100,
+      "delay":0,
+      "loadingTime":400,
+      "leaveShells":-1,
+      "leaveShellDelay":1,
+      "fireCone":10,
+      "laserSight":false,
+      "laserBeam":false,
+      "launchSound":24,
+      "playReloadSound":false,
+      "bulletType":22
     }
   ],
    "wObjects":[
@@ -1533,7 +1457,43 @@
          "partTrailObj":-1,
       },
       {
-         // (unused) mininuke wid22
+         // aura wid22
+         "detectDistance":-5,
+         "blowAway":0,
+         "gravity":0,
+         "exploSound":-1,
+         "addSpeed":0,
+         "distribution":0.0001,
+         "multSpeed":0,
+         "dirtEffect":0,
+         "wormExplode":false,
+         "explGround":false,
+         "wormCollide":false,
+         "collideWithObjects":false,
+         "affectByExplosions":false,
+         "bounce":0,
+         "bounceFriction":0.8,
+         "timeToExplo":1,
+         "timeToExploV":0,
+         "hitDamage":0,
+         "bloodOnHit":0,
+         "startFrame":100,
+         "numFrames":3,
+         "loopAnim":false,
+         "shotType":4,
+         "repeat":8,
+         "colorBullets":43,
+         "splinterAmount":150,
+         "splinterColour":0,
+         "splinterScatter":0,
+         "objTrailDelay":0,
+         "partTrailType":0,
+         "partTrailDelay":0,
+         "speed":100,
+         "createOnExp":-1,
+         "objTrailType":-1,
+         "splinterType":9,
+         "partTrailObj":-1
       },
       {
          // unused wid23
@@ -1630,6 +1590,7 @@
       },
       {
          // unused napalm wid30
+         
       },
       {
          // tupolev wid31
@@ -1920,43 +1881,7 @@
          "splinterType":29, // nobj
          "partTrailObj":-1, // TODO
        }, {
-         // thompson wid44
-         "detectDistance":0,
-         "blowAway":0.04,
-         "gravity":0.01,
-         "exploSound":-1,
-         "addSpeed":0,
-         "distribution":0.3,
-         "multSpeed":1,
-         "dirtEffect":-1,
-         "wormExplode":false,
-         "explGround":true,
-         "wormCollide":true,
-         "collideWithObjects":false,
-         "affectByExplosions":false,
-         "bounce":0,
-         "bounceFriction":0.8,
-         "timeToExplo":70,
-         "timeToExploV":0,
-         "hitDamage":2.75,
-         "bloodOnHit":3,
-         "startFrame":-1,
-         "numFrames":0,
-         "loopAnim":false,
-         "shotType":0,
-         "repeat":2,
-         "colorBullets":68,
-         "splinterAmount":1,
-         "splinterColour":13,
-         "splinterScatter":0,
-         "objTrailDelay":0,
-         "partTrailType":0,
-         "partTrailDelay":0,
-         "speed":300,
-         "createOnExp":2,
-         "objTrailType":-1,
-         "splinterType":2,
-         "partTrailObj":-1,
+         // unused wid44
        }, {
          // cannon wid45
          "detectDistance":2,
@@ -2278,7 +2203,35 @@
          "splinterType":17,
       },
       {
-         // unused nid9
+         // aura nid9
+         "detectDistance":0,
+         "gravity":0,
+         "speed":5,
+         "speedV":0.05,
+         "distribution":0.03,
+         "blowAway":0,
+         "bounce":0,
+         "hitDamage":1,
+         "wormExplode":true,
+         "explGround":false,
+         "wormDestroy":true,
+         "bloodOnHit":2,
+         "startFrame":100,
+         "numFrames":3,
+         "drawOnMap":false,
+         "colorBullets":43,
+         "affectByExplosions":false,
+         "dirtEffect":2,
+         "splinterAmount":0,
+         "splinterColour":0,
+         "bloodTrail":false,
+         "bloodTrailDelay":0,
+         "leaveObjDelay":0,
+         "timeToExplo":5,
+         "timeToExploV":0,
+         "createOnExp":-1,
+         "splinterType":-1,
+         "leaveObj":-1
       },
       {
          // tupolev bomb nid10
