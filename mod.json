@@ -619,15 +619,15 @@
       "bulletSpeedInherit":1,
       "distribution":0.0001,
       "recoil":0,
-      "ammo":100,
-      "delay":0,
+      "ammo":10,
+      "delay":10,
       "loadingTime":400,
       "leaveShells":-1,
       "leaveShellDelay":1,
       "fireCone":10,
       "laserSight":false,
       "laserBeam":false,
-      "launchSound":24,
+      "launchSound":23,
       "playReloadSound":false,
       "bulletType":22
     }
@@ -868,7 +868,7 @@
          "partTrailObj":-1,
       },
       {
-         // mine wid6 (unused)
+         // mine unused wid6
          "detectDistance":2,
          "blowAway":0.6,
          "gravity":0.0152587890625,
@@ -1063,7 +1063,7 @@
          "partTrailObj":-1,
       },
       {
-         // larpa wid11 (unused)
+         // larpa unused wid11
 
       },
       {
@@ -1471,7 +1471,7 @@
          "wormCollide":false,
          "collideWithObjects":false,
          "affectByExplosions":false,
-         "bounce":0,
+         "bounce":1,
          "bounceFriction":0.8,
          "timeToExplo":1,
          "timeToExploV":0,
@@ -1481,11 +1481,11 @@
          "numFrames":3,
          "loopAnim":false,
          "shotType":4,
-         "repeat":8,
+         "repeat":1,
          "colorBullets":43,
          "splinterAmount":150,
          "splinterColour":0,
-         "splinterScatter":0,
+         "splinterScatter":0, // setting this to nonzero makes this not display and hurt the user - wtf?
          "objTrailDelay":0,
          "partTrailType":0,
          "partTrailDelay":0,
@@ -1502,7 +1502,7 @@
          // unused wid24
       },
       {
-         // unused hovercrack wid25
+         // unused wid25
       },
       {
          // flak rifle wid26
@@ -1544,10 +1544,10 @@
          "partTrailObj":-1,
       },
       {
-         // unused bouncylarpa wid27
+         // unused wid27
       },
       {
-         // (unused) laser wid28
+         // unused wid28
       },
       {
          // spikeballs wid29
@@ -1589,7 +1589,7 @@
          "partTrailObj":-1,
       },
       {
-         // unused napalm wid30
+         // unused wid30
          
       },
       {
@@ -1683,7 +1683,7 @@
          // unused wid36
       },
       {
-         // (unused) dartgun wid37
+         // unused wid37
       },
       {
          // scattergun wid38
@@ -1764,7 +1764,7 @@
          "partTrailObj":-1,
       },
       {
-         // (unused) dynamite wid40
+         // unused wid40
       },
       { 
          // grenade wid41
@@ -2227,7 +2227,7 @@
          "bloodTrail":false,
          "bloodTrailDelay":0,
          "leaveObjDelay":0,
-         "timeToExplo":5,
+         "timeToExplo":4,
          "timeToExploV":0,
          "createOnExp":-1,
          "splinterType":-1,
@@ -2551,10 +2551,10 @@
          "splinterType":4,
       },
       {
-         // nid22 (unused?)
+         // unused nid22
       },
       {
-         // nid23 (unused?)
+         // unused nid23
       },
       {
          // unused nid24
@@ -2883,13 +2883,13 @@
          "dirtEffect":1
       },
       {
-         // sid11 unused
+         // unused sid11
       },
       {
-         // sid12 unused
+         // unused sid12
       },
       {
-         // sid13 unused
+         // unused sid13
       },
       {
          // large explosion visual sid14
