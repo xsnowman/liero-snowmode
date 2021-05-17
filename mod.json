@@ -649,7 +649,7 @@
       "launchSound":4,
       "playReloadSound":false,
       "bulletType":30
-    }
+    },
   ],
    "wObjects":[
       {
@@ -2264,7 +2264,7 @@
          "speedV":0.5,
          "distribution":1,
          "bounce":1,
-         "hitDamage":0.175,
+         "hitDamage":0.25,
          "wormExplode":true,
          "explGround":true,
          "wormDestroy":true,
