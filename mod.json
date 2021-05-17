@@ -638,15 +638,15 @@
       "bulletSpeedInherit":1,
       "distribution":0.0001,
       "recoil":1.3,
-      "ammo":100,
+      "ammo":1,
       "delay":20,
-      "loadingTime":300,
+      "loadingTime":400,
       "leaveShells":-1,
       "leaveShellDelay":1,
       "fireCone":10,
       "laserSight":false,
       "laserBeam":false,
-      "launchSound":23,
+      "launchSound":4,
       "playReloadSound":false,
       "bulletType":30
     }
@@ -1611,9 +1611,9 @@
          // phoenix device wid30
          "detectDistance":0,
          "blowAway":0,
-         "gravity":-0.01,
+         "gravity":-0.00732,
          "exploSound":-1,
-         "addSpeed":0,
+         "addSpeed":-0.01,
          "distribution":0,
          "multSpeed":0.983,
          "dirtEffect":0,
@@ -1636,14 +1636,14 @@
          "splinterAmount":0,
          "splinterColour":0,
          "splinterScatter":0,
-         "objTrailDelay":3,
+         "objTrailDelay":10,
          "partTrailType":0,
          "partTrailDelay":1,
          "speed":1,
          "createOnExp":-1,
          "objTrailType":2,
          "splinterType":-1,
-         "partTrailObj":9
+         "partTrailObj":13
       },
       {
          // tupolev wid31
@@ -2258,17 +2258,17 @@
       {
          // phoenix device nid9
          "detectDistance":2,
-         "gravity":-0.5,
+         "blowAway":0.005,
+         "gravity":-0.6,
          "speed":1,
-         "speedV":0.1,
-         "distribution":0.1,
-         "blowAway":0,
-         "bounce":0,
-         "hitDamage":2,
+         "speedV":0.5,
+         "distribution":1,
+         "bounce":1,
+         "hitDamage":0.175,
          "wormExplode":true,
          "explGround":true,
          "wormDestroy":true,
-         "bloodOnHit":2,
+         "bloodOnHit":0,
          "startFrame":159,
          "numFrames":5,
          "drawOnMap":false,
@@ -2281,8 +2281,8 @@
          "bloodTrailDelay":0,
          "leaveObjDelay":0,
          "timeToExplo":20,
-         "timeToExploV":10,
-         "createOnExp":-1,
+         "timeToExploV":6,
+         "createOnExp":15,
          "leaveObj":3,
          "splinterType":0
       },
@@ -2383,16 +2383,16 @@
       {
          // phoenix fire spawner nid13
          "detectDistance":0,
-         "gravity":0,
-         "speed":0,
-         "speedV":0,
+         "gravity":1,
+         "speed":2.5,
+         "speedV":5,
          "distribution":0,
          "blowAway":0,
          "bounce":0,
          "hitDamage":0,
          "wormExplode":false,
          "explGround":false,
-         "wormDestroy":false,
+         "wormDestroy":true,
          "bloodOnHit":0,
          "startFrame":-1,
          "numFrames":0,
@@ -2407,9 +2407,9 @@
          "leaveObjDelay":0,
          "timeToExplo":1,
          "timeToExploV":0,
-         "createOnExp":30,
-         "leaveObj":3,
-         "splinterType":9
+         "createOnExp":3, // sobj
+         "leaveObj":3, // sobj
+         "splinterType":9 // nobj
       },
       {
          // banana spawner nid14
@@ -3056,14 +3056,14 @@
          "dirtEffect":-1
       },
       {
-         // unused smoke sid15
+         // phoenix smoke sid15
          "startSound":-1,
          "numSounds":0,
          "animDelay":4,
          "startFrame":65,
          "numFrames":3,
-         "detectRange":0,
-         "damage":0,
+         "detectRange":5,
+         "damage":2,
          "blowAway":0,
          "shadow":false,
          "shake":0,
